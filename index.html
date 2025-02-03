@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <meta charset="utf-8">
 <title>Hello OpenCV.js</title>
 </head>
@@ -9,10 +10,10 @@
 <p id="status">OpenCV.js is loading...</p>
 <div>
   <div class="inputoutput">
-    <img id="imageSrc" alt="No Image" />
+    <img class="image" id="imageSrc" alt="No Image" />
     <div class="caption">imageSrc <input type="file" id="fileInput" name="file" /></div>
   </div>
-  <div class="inputoutput">
+  <div class="inputoutput canvas_output">
     <canvas id="canvasOutput" ></canvas>
     <div class="caption">canvasOutput</div>
   </div>
